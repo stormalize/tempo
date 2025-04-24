@@ -20,3 +20,4 @@ Copy arrays of ids from `out.json` into `tempo.json`.
 - Bladesworn skills are not included in the API for some reason, those need to be added in manually
 - Ranger spear stealth attack 2 has to be added manually as it's not a slot 1 skill
 - Necro sword auto-attack doesn't have prev or next listed in API
+- Guardian staff auto-attack doesn't have prev or next listed in API
