@@ -21,3 +21,4 @@ Copy arrays of ids from `out.json` into `tempo.json`.
 - Ranger spear stealth attack 2 has to be added manually as it's not a slot 1 skill
 - Necro sword auto-attack doesn't have prev or next listed in API
 - Guardian staff auto-attack doesn't have prev or next listed in API
+- Mesmer scepter auto-attack doesn't have prev or next listed in API
