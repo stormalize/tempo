@@ -3,3 +3,17 @@
 Reffect pack for Guild Wars 2. Requires https://github.com/Zerthox/gw2-reffect.
 
 Simple indicator for which attack your skill slot 1 is currently on. It can help get the rhythm of auto-attack chains as well as stealth/ambush/unleashed skills that are temporarily accessed in slot 1.
+
+- Supports all chains in slot 1, even underwater/kits/conjures
+- Unique indicator for Stealth, Ambush, and Unleashed Ambush skills that overwrite normal slot 1 abilities
+- A placeholder will be shown instead for weapons that have no auto-attack chain or stealth skills
+
+## Preview
+
+### Final Attack in Chain
+
+![preview of reffect ui element for auto attack](./_preview/chain-final.png)
+
+### Stealth/Ambush
+
+![preview of reffect ui element for special stealth attack](./_preview/stealth.png)
