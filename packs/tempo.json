@@ -1,0 +1,348 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "tempo",
+  "anchor": {
+    "Screen": "BottomCenter"
+  },
+  "pos": [
+    0.0,
+    -400.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": "Inherit",
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "main",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "Ability": [
+            72927,
+            13015,
+            13128,
+            71852,
+            73093
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "tempo\\main-shadow.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        112.0,
+        184.0
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "one",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "Ability": [
+            13009,
+            73154
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Present",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "tempo\\1.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        112.0,
+        184.0
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "two",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "Ability": [
+            13088,
+            73066
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Present",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "tempo\\2.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        112.0,
+        184.0
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "three",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "Ability": [
+            13116,
+            73095
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Present",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "tempo\\3-glow.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        112.0,
+        184.0
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "stealth",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "Ability": [
+            13114,
+            73005,
+            72034,
+            73067
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Present",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "tempo\\stealth-glow.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        112.0,
+        184.0
+      ]
+    }
+  ]
+}
