@@ -14,3 +14,5 @@ node generate-skills-list.mjs --debug
 ```
 
 Copy arrays of ids from `out.json` into `tempo.json`.
+
+**NOTE**: Bladesworn skills are not included in the API for some reason, those need to be added in manually. Also Ranger spear stealth attack 2 has to be added manually as it's not a slot 1 skill.
