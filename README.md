@@ -8,6 +8,8 @@ Simple indicator for which attack your skill slot 1 is currently on. It can help
 - Unique indicator for Stealth, Ambush, and Unleashed Ambush skills that overwrite normal slot 1 abilities
 - A placeholder will be shown instead for weapons that have no auto-attack chain or stealth skills
 
+Zip archive is available under Releases.
+
 ## Preview
 
 ### Chain: Start->Middle->End
