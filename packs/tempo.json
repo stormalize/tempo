@@ -3,9 +3,9 @@
   "enabled": true,
   "name": "tempo",
   "anchor": {
-    "Screen": "BottomCenter"
+    "Screen": "Center"
   },
-  "pos": [0.0, -450.0],
+  "pos": [250.0, 0.0],
   "opacity": 1.0,
   "trigger": {
     "source": "Inherit",
