@@ -8,6 +8,7 @@ const lists = {
 	middle: new Set(),
 	last: new Set(),
 	special: new Set(),
+	misc: new Set(),
 };
 
 const specialTypes = ["Stealth Attack", "Ambush", "Unleashed Ambush"];
@@ -20,6 +21,7 @@ try {
 		if (["Weapon_1", "Downed_1"].includes(skill.slot)) {
 			const hasPrev = Object.hasOwn(skill, "prev_chain");
 			const hasNext = Object.hasOwn(skill, "next_chain");
+			const hasFlip = Object.hasOwn(skill, "flip_skill");
 
 			if (hasNext && !hasPrev) {
 				lists.first.add(skill);
@@ -27,6 +29,8 @@ try {
 				lists.middle.add(skill);
 			} else if (!hasNext && hasPrev) {
 				lists.last.add(skill);
+			} else if (hasFlip) {
+				lists.misc.add(skill);
 			}
 
 			const descriptionPrefix = skill.description.split(".", 2)[0];
