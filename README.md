@@ -19,3 +19,7 @@ Zip archive is available under Releases.
 ### Stealth/Ambush
 
 ![preview of reffect ui element for special stealth attack](./_preview/stealth.png)
+
+## Notes
+
+Anomaly: Guardian hammer auto-attack animations especially with quickness appear to be partially desynced with the skill timing of the bar (which is what reffect looks at), and the final symbol attack completes _after_ it's already back to the "first" skill.
