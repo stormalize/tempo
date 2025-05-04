@@ -61,6 +61,53 @@
     },
     {
       "enabled": true,
+      "name": "main-ambush",
+      "anchor": "Parent",
+      "pos": [0.0, 0.0],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "Ability": [
+            71897, 10333, 10310, 10259, 69311, 12509, 12468, 12480, 31889, 12529
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": ["Untamed", "Mirage"],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "tempo\\main-frame.png"
+      },
+      "tint": [1.0, 1.0, 1.0, 1.0],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [0.0, 0.0, 0.0, 1.0],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [112.0, 184.0]
+    },
+    {
+      "enabled": true,
       "name": "main",
       "anchor": "Parent",
       "pos": [0.0, 0.0],
@@ -75,8 +122,7 @@
             63351, 5625, 5547, 45313, 44405, 44998, 40709, 62958, 10168, 10334,
             10315, 73093, 45243, 69302, 10532, 71883, 71914, 10694, 73068,
             30163, 30825, 71852, 13008, 41494, 44591, 13083, 72927, 13073,
-            13140, 69389, 10333, 71897, 10310, 10318, 10259, 12480, 12509,
-            12468, 31889, 12529, 73122, 5593, 63169, 42965
+            13140, 10318, 73122, 5593, 63169, 42965
           ]
         },
         "threshold": {
@@ -116,7 +162,7 @@
     },
     {
       "enabled": true,
-      "name": "main",
+      "name": "main-4-segments",
       "anchor": "Parent",
       "pos": [0.0, 0.0],
       "opacity": 1.0,
