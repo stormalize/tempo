@@ -17,6 +17,49 @@
   "layer": 0,
   "elements": [
     {
+      "enabled": false,
+      "name": "ui-indicator",
+      "anchor": "Parent",
+      "pos": [0.0, 0.0],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Always",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "tempo\\auto-chain-icon.png"
+      },
+      "tint": [1.0, 1.0, 1.0, 1.0],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [0.0, 0.0, 0.0, 1.0],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [112.0, 184.0]
+    },
+    {
       "enabled": true,
       "name": "base",
       "anchor": "Parent",
@@ -46,7 +89,7 @@
       "animation": null,
       "type": "Icon",
       "icon": {
-        "File": "tempo\\base-no-chain.png"
+        "File": "tempo\\base-no-chain-outline.png"
       },
       "tint": [1.0, 1.0, 1.0, 1.0],
       "zoom": 1.0,
