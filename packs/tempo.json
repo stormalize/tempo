@@ -5,25 +5,50 @@
   "anchor": {
     "Screen": "Center"
   },
-  "pos": [250.0, 0.0],
+  "pos": [
+    250.0,
+    100.0
+  ],
   "opacity": 1.0,
   "trigger": {
-    "source": "Inherit",
+    "source": {
+      "type": "Inherit"
+    },
     "threshold": {
       "threshold_type": "Always",
       "amount_type": "Intensity"
     }
   },
+  "filter": {
+    "player": {
+      "combat": true,
+      "specs": [],
+      "weapons": [],
+      "traits": [],
+      "mounts": []
+    },
+    "map": {
+      "category": [],
+      "whitelist": true,
+      "ids": []
+    }
+  },
+  "animation": null,
   "layer": 0,
   "elements": [
     {
       "enabled": true,
       "name": "main",
       "anchor": "Parent",
-      "pos": [0.0, 0.0],
+      "pos": [
+        0.0,
+        0.0
+      ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -50,10 +75,15 @@
           "enabled": true,
           "name": "ui-indicator-icon",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Always",
+            "source": {
+              "type": "Always"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -78,25 +108,43 @@
           "icon": {
             "File": "tempo\\auto-chain-icon.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
           "conditions": [],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "base",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Always",
+            "source": {
+              "type": "Always"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -121,27 +169,52 @@
           "icon": {
             "File": "tempo\\base-no-chain-outline.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
           "conditions": [],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "main-ambush",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [
-                71897, 10333, 10310, 10259, 69311, 12509, 12468, 12480, 31889,
+              "type": "Ability",
+              "ids": [
+                71897,
+                10333,
+                10310,
+                10259,
+                69311,
+                12509,
+                12468,
+                12480,
+                31889,
                 12529
               ]
             },
@@ -153,7 +226,10 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": ["Untamed", "Mirage"],
+              "specs": [
+                "Untamed",
+                "Mirage"
+              ],
               "weapons": [],
               "traits": [],
               "mounts": []
@@ -169,34 +245,116 @@
           "icon": {
             "File": "tempo\\main-frame.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
           "conditions": [],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "main",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [
-                9111, 9097, 9081, 9194, 9140, 9208, 40624, 28357, 29233, 29145,
-                62692, 14421, 14503, 14366, 14554, 14386, 72002, 14440, 46233,
-                62930, 44110, 71121, 5995, 30088, 71999, 69203, 12525, 73110,
-                73030, 12559, 63366, 69167, 63335, 13097, 13015, 13128, 13069,
-                29911, 63351, 5625, 5547, 45313, 44405, 44998, 40709, 62958,
-                10168, 10334, 10315, 73093, 45243, 69302, 10532, 71883, 71914,
-                10694, 73068, 30163, 30825, 71852, 13008, 41494, 44591, 13083,
-                72927, 13073, 13140, 10318, 73122, 5593, 63169, 42965, 71816,
+              "type": "Ability",
+              "ids": [
+                9111,
+                9097,
+                9081,
+                9194,
+                9140,
+                9208,
+                40624,
+                28357,
+                29233,
+                29145,
+                62692,
+                14421,
+                14503,
+                14366,
+                14554,
+                14386,
+                72002,
+                14440,
+                46233,
+                62930,
+                44110,
+                71121,
+                5995,
+                30088,
+                71999,
+                69203,
+                12525,
+                73110,
+                73030,
+                12559,
+                63366,
+                69167,
+                63335,
+                13097,
+                13015,
+                13128,
+                13069,
+                29911,
+                63351,
+                5625,
+                5547,
+                45313,
+                44405,
+                44998,
+                40709,
+                62958,
+                10168,
+                10334,
+                10315,
+                73093,
+                45243,
+                69302,
+                10532,
+                71883,
+                71914,
+                10694,
+                73068,
+                30163,
+                30825,
+                71852,
+                13008,
+                41494,
+                44591,
+                13083,
+                72927,
+                13073,
+                13140,
+                10318,
+                73122,
+                5593,
+                63169,
+                42965,
+                71816,
                 72109
               ]
             },
@@ -224,26 +382,45 @@
           "icon": {
             "File": "tempo\\main-frame.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
           "conditions": [],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "main-4-segments",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [43536]
+              "type": "Ability",
+              "ids": [
+                43536
+              ]
             },
             "threshold": {
               "threshold_type": "Always",
@@ -269,33 +446,107 @@
           "icon": {
             "File": "tempo\\main-frame-4.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
           "conditions": [],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "one",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [
-                5621, 5726, 5992, 9105, 9109, 9137, 9159, 10170, 10315, 10692,
-                10698, 10702, 12410, 12422, 12432, 12471, 12474, 12553, 13004,
-                13009, 13119, 14356, 14358, 14364, 14369, 14376, 14437, 14485,
-                27066, 29057, 29180, 29442, 29705, 30501, 30614, 39964, 41052,
-                42745, 43476, 43616, 44260, 44588, 44681, 44791, 45047, 45426,
-                62865, 62913, 63118, 63186, 70514, 71933, 72024, 72088, 72922,
-                72944, 73012, 73154, 62966, 71986, 9122, 10289, 5541, 9205,
+              "type": "Ability",
+              "ids": [
+                5621,
+                5726,
+                5992,
+                9105,
+                9109,
+                9137,
+                9159,
+                10170,
+                10315,
+                10692,
+                10698,
+                10702,
+                12410,
+                12422,
+                12432,
+                12471,
+                12474,
+                12553,
+                13004,
+                13009,
+                13119,
+                14356,
+                14358,
+                14364,
+                14369,
+                14376,
+                14437,
+                14485,
+                27066,
+                29057,
+                29180,
+                29442,
+                29705,
+                30501,
+                30614,
+                39964,
+                41052,
+                42745,
+                43476,
+                43616,
+                44260,
+                44588,
+                44681,
+                44791,
+                45047,
+                45426,
+                62865,
+                62913,
+                63118,
+                63186,
+                70514,
+                71933,
+                72024,
+                72088,
+                72922,
+                72944,
+                73012,
+                73154,
+                62966,
+                71986,
+                9122,
+                10289,
+                5541,
+                9205,
                 63066
               ]
             },
@@ -323,33 +574,148 @@
           "icon": {
             "File": "tempo\\1.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
-          "conditions": [],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pending"
+                  ],
+                  "condition": "None"
+                }
+              },
+              "properties": {
+                "tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.49803922
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            },
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pressed"
+                  ],
+                  "condition": "All"
+                }
+              },
+              "properties": {
+                "tint": [
+                  0.8627451,
+                  0.8627451,
+                  0.8627451,
+                  1.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            }
+          ],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "two",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [
-                5727, 5993, 9106, 9110, 9138, 9160, 10171, 10316, 10693, 10699,
-                10703, 12472, 12487, 12555, 13087, 13088, 13120, 14365, 14370,
-                14373, 14377, 14384, 14438, 14486, 21646, 26730, 29256, 29331,
-                29458, 29785, 30135, 30799, 40326, 40560, 42475, 43080, 44602,
-                44840, 45259, 45581, 45756, 45983, 62688, 62694, 63077, 63222,
-                69906, 71930, 72001, 72044, 73040, 73066, 73109, 73112, 62772,
-                71850, 51660, 10290, 50399, 63182
+              "type": "Ability",
+              "ids": [
+                5727,
+                5993,
+                9106,
+                9110,
+                9138,
+                9160,
+                10171,
+                10316,
+                10693,
+                10699,
+                10703,
+                12472,
+                12487,
+                12555,
+                13087,
+                13088,
+                13120,
+                14365,
+                14370,
+                14373,
+                14377,
+                14384,
+                14438,
+                14486,
+                21646,
+                26730,
+                29256,
+                29331,
+                29458,
+                29785,
+                30135,
+                30799,
+                40326,
+                40560,
+                42475,
+                43080,
+                44602,
+                44840,
+                45259,
+                45581,
+                45756,
+                45983,
+                62688,
+                62694,
+                63077,
+                63222,
+                69906,
+                71930,
+                72001,
+                72044,
+                73040,
+                73066,
+                73109,
+                73112,
+                62772,
+                71850,
+                51660,
+                10290,
+                50399,
+                63182
               ]
             },
             "threshold": {
@@ -376,26 +742,90 @@
           "icon": {
             "File": "tempo\\2.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
-          "conditions": [],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pending"
+                  ],
+                  "condition": "None"
+                }
+              },
+              "properties": {
+                "tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.49803922
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            },
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pressed"
+                  ],
+                  "condition": "Any"
+                }
+              },
+              "properties": {
+                "tint": [
+                  0.8627451,
+                  0.8627451,
+                  0.8627451,
+                  1.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            }
+          ],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "two-left",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [40301]
+              "type": "Ability",
+              "ids": [
+                40301
+              ]
             },
             "threshold": {
               "threshold_type": "Present",
@@ -421,26 +851,90 @@
           "icon": {
             "File": "tempo\\2-left.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
-          "conditions": [],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pending"
+                  ],
+                  "condition": "None"
+                }
+              },
+              "properties": {
+                "tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.49803922
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            },
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pressed"
+                  ],
+                  "condition": "Any"
+                }
+              },
+              "properties": {
+                "tint": [
+                  0.8627451,
+                  0.8627451,
+                  0.8627451,
+                  1.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            }
+          ],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "two-right",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [41800]
+              "type": "Ability",
+              "ids": [
+                41800
+              ]
             },
             "threshold": {
               "threshold_type": "Present",
@@ -466,34 +960,154 @@
           "icon": {
             "File": "tempo\\2-right.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
-          "conditions": [],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pending"
+                  ],
+                  "condition": "None"
+                }
+              },
+              "properties": {
+                "tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.49803922
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            },
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pressed"
+                  ],
+                  "condition": "Any"
+                }
+              },
+              "properties": {
+                "tint": [
+                  0.8627451,
+                  0.8627451,
+                  0.8627451,
+                  1.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            }
+          ],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "three",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [
-                5728, 5746, 5994, 9108, 9139, 9161, 9227, 10172, 10317, 10552,
-                10617, 10704, 12421, 12423, 12433, 12473, 12488, 12556, 13108,
-                13116, 13121, 14363, 14371, 14374, 14378, 14385, 14439, 14487,
-                26666, 28964, 29002, 29867, 30278, 30434, 30489, 40275, 41164,
-                41684, 43199, 43657, 43826, 44278, 45216, 45890, 45979, 46024,
-                62752, 62862, 63174, 63337, 70771, 71885, 71942, 72049, 72920,
-                73001, 73047, 73087, 73095, 62918, 72051, 51645, 10291, 40229,
-                50392, 63134
+              "type": "Ability",
+              "ids": [
+                5728,
+                5746,
+                5994,
+                9108,
+                9139,
+                9161,
+                9227,
+                10172,
+                10317,
+                10552,
+                10617,
+                10704,
+                12421,
+                12423,
+                12433,
+                12473,
+                12488,
+                12556,
+                13108,
+                13116,
+                13121,
+                14363,
+                14371,
+                14374,
+                14378,
+                14385,
+                14439,
+                14487,
+                26666,
+                28964,
+                29002,
+                29867,
+                30278,
+                30434,
+                30489,
+                40275,
+                41164,
+                41684,
+                43199,
+                43657,
+                43826,
+                44278,
+                45216,
+                45890,
+                45979,
+                46024,
+                62752,
+                62862,
+                63174,
+                63337,
+                70771,
+                71885,
+                71942,
+                72049,
+                72920,
+                73001,
+                73047,
+                73087,
+                73095,
+                62918,
+                72051,
+                51645,
+                10291,
+                40229,
+                50392,
+                63134
               ]
             },
             "threshold": {
@@ -520,31 +1134,133 @@
           "icon": {
             "File": "tempo\\3-glow.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
-          "conditions": [],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pending"
+                  ],
+                  "condition": "None"
+                }
+              },
+              "properties": {
+                "tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.49803922
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            },
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pressed"
+                  ],
+                  "condition": "Any"
+                }
+              },
+              "properties": {
+                "tint": [
+                  0.8627451,
+                  0.8627451,
+                  0.8627451,
+                  1.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            }
+          ],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         },
         {
           "enabled": true,
           "name": "stealth",
           "anchor": "Parent",
-          "pos": [0.0, 0.0],
+          "pos": [
+            0.0,
+            0.0
+          ],
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Ability": [
-                13005, 13114, 13115, 13125, 13126, 13129, 13138, 30210, 39959,
-                40184, 42304, 44087, 44241, 44321, 44864, 45230, 50417, 50449,
-                50451, 50466, 50481, 50484, 63065, 63129, 63225, 63301, 63314,
-                63326, 63336, 63350, 63438, 69173, 69175, 69223, 69250, 69316,
-                69389, 71800, 71835, 72034, 72079, 72924, 72932, 73005, 73067,
+              "type": "Ability",
+              "ids": [
+                13005,
+                13114,
+                13115,
+                13125,
+                13126,
+                13129,
+                13138,
+                30210,
+                39959,
+                40184,
+                42304,
+                44087,
+                44241,
+                44321,
+                44864,
+                45230,
+                50417,
+                50449,
+                50451,
+                50466,
+                50481,
+                50484,
+                63065,
+                63129,
+                63225,
+                63301,
+                63314,
+                63326,
+                63336,
+                63350,
+                63438,
+                69173,
+                69175,
+                69223,
+                69250,
+                69316,
+                69389,
+                71800,
+                71835,
+                72034,
+                72079,
+                72924,
+                72932,
+                73005,
+                73067,
                 73030
               ]
             },
@@ -572,16 +1288,52 @@
           "icon": {
             "File": "tempo\\stealth-glow.png"
           },
-          "tint": [1.0, 1.0, 1.0, 1.0],
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
           "zoom": 1.0,
           "round": 0.0,
           "border_size": 0.0,
-          "border_color": [0.0, 0.0, 0.0, 1.0],
-          "conditions": [],
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [
+            {
+              "trigger": {
+                "AbilityState": {
+                  "states": [
+                    "Pressed"
+                  ],
+                  "condition": "Any"
+                }
+              },
+              "properties": {
+                "tint": [
+                  0.8627451,
+                  0.8627451,
+                  0.8627451,
+                  1.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            }
+          ],
           "duration_bar": false,
           "duration_text": false,
           "stacks_text": false,
-          "size": [112.0, 184.0]
+          "size": [
+            112.0,
+            184.0
+          ]
         }
       ]
     }
